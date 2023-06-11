@@ -1,0 +1,13 @@
+variable "project" {}
+
+variable "credentials_file" {}
+
+variable "region" {
+  default = "asia-northeast1"
+}
+
+variable "zone" {
+  default = "asia-northeast1-b"
+}
+
+variable "allow_ssh_source_ranges" {}
